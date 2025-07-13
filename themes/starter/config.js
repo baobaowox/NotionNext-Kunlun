@@ -65,7 +65,7 @@ const CONFIG = {
   STARTER_ABOUT_TEXT:
     '昆仑人才研究院专注于组织级AI人才能力建设，致力于帮助企业实现从AI认知普及到实战落地的系统转型。我们融合十余年大厂经验、先进的人才模型与实战项目，输出可交付、可复制、可落地的能力培养方案。',
   STARTER_ABOUT_BUTTON_TEXT: '了解我们',
-  STARTER_ABOUT_BUTTON_URL: 'https://generated-neem-f94.notion.site/AI-22f58cc55b5080c98bafe2e84460f054?source=copy_link',
+  STARTER_ABOUT_BUTTON_URL: 'https://www.jinnangmiaoji.top/article/example-4',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
   STARTER_ABOUT_TIPS_1: '100+',
