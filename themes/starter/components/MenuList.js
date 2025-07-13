@@ -52,19 +52,29 @@ export const MenuList = props => {
   useEffect(() => {
     setShowMenu(false)
   }, [router])
-  
   if (!links || links.length === 0) {
     return null
   }
-  
   return (
-    <div className="flex-1 flex justify-end">
-      {/* 完全不渲染移动端菜单切换按钮 */}
+    <div className="ml-auto">
+      {/* 移动端菜单切换按钮 */}
+      <button
+        id='navbarToggler'
+        onClick={toggleMenu}
+        className={`absolute right-4 top-1/2 block -translate-y-1/2 rounded-lg px-3 py-[6px] ring-primary focus:ring-2 lg:hidden ${
+          showMenu ? 'navbarTogglerActive' : ''
+        }`}>
+        <span className='relative my-[6px] block h-[2px] w-[30px] bg-white duration-200 transition-all'></span>
+        <span className='relative my-[6px] block h-[2px] w-[30px] bg-white duration-200 transition-all'></span>
+        <span className='relative my-[6px] block h-[2px] w-[30px] bg-white duration-200 transition-all'></span>
+      </button>
       <nav
         id='navbarCollapse'
-        className="block w-auto bg-transparent">
-        <ul className='flex items-center justify-end gap-6'>
-          {links?.filter(link => link.show !== false).map((link, index) => (
+        className={`absolute right-4 top-full w-full max-w-[250px] rounded-lg bg-white py-5 shadow-lg dark:bg-dark-2 lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6 ${
+          showMenu ? '' : 'hidden'
+        }`}>
+        <ul className='block lg:flex lg:justify-end lg:ml-auto 2xl:ml-20'>
+          {links?.map((link, index) => (
             <MenuItem key={index} link={link} />
           ))}
         </ul>
