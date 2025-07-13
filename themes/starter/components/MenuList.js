@@ -56,7 +56,7 @@ export const MenuList = props => {
     return null
   }
   return (
-    <div>
+    <div className="ml-auto">
       {/* 移动端菜单切换按钮 - 只在小屏幕显示 */}
       <button
         id='navbarToggler'
