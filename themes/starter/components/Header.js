@@ -65,8 +65,10 @@ export const Header = props => {
               {/* 中间菜单 */}
               <MenuList {...props} />
 
-              {/* 右侧功能按钮 */}
+              {/* 右侧功能 */}
               <div className='flex items-center gap-4'>
+                {/* 深色模式切换 */}
+                <DarkModeButton />
                 {/* 注册登录功能 */}
                 {enableClerk && (
                   <>
@@ -104,9 +106,6 @@ export const Header = props => {
                     </Link>
                   </div>
                 )}
-                
-                {/* 深色模式切换 - 在汉堡菜单之前 */}
-                <DarkModeButton />
               </div>
             </div>
           </div>
