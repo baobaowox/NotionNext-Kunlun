@@ -301,10 +301,10 @@ const CONFIG = {
 
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
-  STARTER_CTA_TITLE: '有合作需求或想了解更多？欢迎联系我们',
+  STARTER_CTA_TITLE: '有合作需求或想了解更多？',
   STARTER_CTA_TITLE_2: '',
   STARTER_CTA_DESCRIPTION:
-    '我们将为您提供定制化的AI人才建设方案与一对一答疑支持。',
+    '欢迎联系我们，我们将为您提供定制化的AI人才建设方案与一对一答疑支持。',
   STARTER_CTA_BUTTON: true, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
     'https://vln844fdcr.feishu.cn/share/base/form/shrcnsTQWqJD0UM4VTyCJOBcvsf',
