@@ -287,14 +287,77 @@ img {
   overflow: hidden;
 }
 
-
 .lazy-image-placeholder{
   background: 
       linear-gradient(90deg,#0001 33%,#0005 50%,#0001 66%)
       #f2f2f2;
   background-size:300% 100%;
   animation: l1 1s infinite linear;
-  }
-  @keyframes l1 {
+}
+
+@keyframes l1 {
   0% {background-position: right}
+}
+
+/* ====== 自定义导航栏修复样式 ====== */
+/* 强制隐藏汉堡菜单按钮 */
+#navbarToggler,
+[id*="navbar"][id*="toggle"],
+[id*="navbar"][id*="Toggler"],
+.navbarToggler,
+.navbar-toggler,
+button[class*="toggle"],
+button[class*="Toggle"] {
+  display: none !important;
+  visibility: hidden !important;
+  opacity: 0 !important;
+  pointer-events: none !important;
+}
+
+/* 确保导航栏容器正确显示 */
+#navbarCollapse {
+  display: block !important;
+  position: static !important;
+  background: transparent !important;
+  box-shadow: none !important;
+  width: auto !important;
+  max-width: none !important;
+  top: auto !important;
+  right: auto !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+/* 强制导航栏菜单项在所有屏幕尺寸下都显示 */
+#navbarCollapse ul {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: flex-end !important;
+  align-items: center !important;
+  gap: 1.5rem !important;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+/* 响应式处理 - 确保移动端也正常显示 */
+@media (max-width: 1024px) {
+  #navbarCollapse {
+    display: block !important;
+    position: static !important;
+  }
+  
+  #navbarCollapse ul {
+    display: flex !important;
+    flex-direction: row !important;
+    flex-wrap: wrap !important;
+    gap: 1rem !important;
+  }
+}
+
+/* 如果还有其他可能的toggle按钮，全部隐藏 */
+.ud-header button[class*="absolute"],
+.ud-header button[class*="right-4"],
+.ud-header [class*="hamburger"],
+.ud-header [class*="menu-toggle"] {
+  display: none !important;
 }
