@@ -33,44 +33,44 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: '特性', // 特性
-  STARTER_FEATURE_TEXT_1: 'NotionNext的主要特性', // 特性
+  STARTER_FEATURE_TITLE: 'AI业务', // 特性
+  STARTER_FEATURE_TEXT_1: 'AI产品经理训练营', // 特性
   STARTER_FEATURE_TEXT_2:
-    'NotionNext的愿景是帮助您简单、无感知地稳定地搭建自己的网站，放大品牌的价值。 ', // 特性
+    '聚焦“懂业务、会工具、能落地”的全链路AI产品人才培养路径，打造企业AI战略落地的关键角色。', // 特性
 
-  STARTER_FEATURE_1_TITLE_1: '免费且开源', // 特性1
-  STARTER_FEATURE_1_TEXT_1: '项目源码在Github上完全开放共享，遵循MIT协议', // 特性1
+  STARTER_FEATURE_1_TITLE_1: 'AI产品思维重塑', // 特性1
+  STARTER_FEATURE_1_TEXT_1: '从传统产品经理思维跃迁到AI时代的产品认知体系', // 特性1
   STARTER_FEATURE_1_BUTTON_TEXT: '', // 特性1
   STARTER_FEATURE_1_BUTTON_URL: '', // 特性1
 
-  STARTER_FEATURE_2_TITLE_1: '多种主题定制', // 特性2
-  STARTER_FEATURE_2_TEXT_1: '数十种主题,适用于不同场景，总有一款适合你', // 特性2
+  STARTER_FEATURE_2_TITLE_1: '核心工具系统实战', // 特性2
+  STARTER_FEATURE_2_TEXT_1: '全流程掌握AI产品所需的主流工具与能力模块', // 特性2
   STARTER_FEATURE_2_BUTTON_TEXT: '', // 特性2
   STARTER_FEATURE_2_BUTTON_URL:
     '', // 特性2
 
-  STARTER_FEATURE_3_TITLE_1: '优秀的性能', // 特性3
-  STARTER_FEATURE_3_TEXT_1: '基于NextJS开发，更快的响应速度，更好的SEO', // 特性3
+  STARTER_FEATURE_3_TITLE_1: '真实业务场景共创', // 特性3
+  STARTER_FEATURE_3_TEXT_1: '以企业真实业务痛点为起点，反推AI落地解决方案', // 特性3
   STARTER_FEATURE_3_BUTTON_TEXT: '', // 特性3
   STARTER_FEATURE_3_BUTTON_URL: '', // 特性3
 
-  STARTER_FEATURE_4_TITLE_1: '便捷的写作体验', // 特性4
-  STARTER_FEATURE_4_TEXT_1: '只需在Notion笔记中编修，自动同步到网站', // 特性4
+  STARTER_FEATURE_4_TITLE_1: '教练式陪跑机制', // 特性4
+  STARTER_FEATURE_4_TEXT_1: '不仅教，更陪着做；不仅讲，更帮你穿透问题本质', // 特性4
   STARTER_FEATURE_4_BUTTON_TEXT: '', // 特性4
   STARTER_FEATURE_4_BUTTON_URL: '', // 特性4
 
   // 首页ABOUT区块
   STARTER_ABOUT_ENABLE: true, // ABOUT区块开关
-  STARTER_ABOUT_TITLE: '一套轻量实用的建站解决方案',
+  STARTER_ABOUT_TITLE: '专注于组织AI能力建设的战略合作伙伴',
   STARTER_ABOUT_TEXT:
-    'NotionNext的愿景是帮助非技术人员的小白，最低成本、最快速地搭建自己的网站，帮助您将自己的产品与故事高效地传达给世界。 <br /> <br /> 功能强大的Notion笔记，简单快速的Vercel托管平台，组成一个简单的网站',
-  STARTER_ABOUT_BUTTON_TEXT: '了解更多',
-  STARTER_ABOUT_BUTTON_URL: 'https://docs.tangly1024.com/about',
+    '昆仑人才研究院专注于组织级AI人才能力建设，致力于帮助企业实现从AI认知普及到实战落地的系统转型。我们融合十余年大厂经验、先进的人才模型与实战项目，输出可交付、可复制、可落地的能力培养方案。',
+  STARTER_ABOUT_BUTTON_TEXT: '了解我们',
+  STARTER_ABOUT_BUTTON_URL: 'https://www.notion.so/AI-22f58cc55b5080c98bafe2e84460f054?source=copy_link',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
-  STARTER_ABOUT_TIPS_1: '7000+',
-  STARTER_ABOUT_TIPS_2: '博客站点',
-  STARTER_ABOUT_TIPS_3: '正在线上运行',
+  STARTER_ABOUT_TIPS_1: '100+',
+  STARTER_ABOUT_TIPS_2: '头部科技企业合作',
+  STARTER_ABOUT_TIPS_3: '',
 
   // 首页价格区块
   STARTER_PRICING_ENABLE: false, // 价格区块开关
