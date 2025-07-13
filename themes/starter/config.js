@@ -232,7 +232,7 @@ const CONFIG = {
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
   STARTER_BLOG_TITLE: '核心方案介绍',
-  STARTER_BLOG_COUNT: 2, // 首页博文区块默认展示前3篇文章
+  STARTER_BLOG_COUNT: 3, // 首页博文区块默认展示前3篇文章
   STARTER_BLOG_TEXT_1: 'AI人才战略项目',
   STARTER_BLOG_TEXT_2:
     '聚焦AI人才转型两大关键路径——以“产品力建设”与“组织复制机制”为核心，打造面向未来的企业AI能力体系。',
@@ -300,15 +300,15 @@ const CONFIG = {
   STARTER_404_BACK: '回到主页',
 
   // 页面底部的行动呼吁模块
-  STARTER_CTA_ENABLE: false,
+  STARTER_CTA_ENABLE: true,
   STARTER_CTA_TITLE: '你还在等待什么呢？',
   STARTER_CTA_TITLE_2: '现在开始吧',
   STARTER_CTA_DESCRIPTION:
     '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
   STARTER_CTA_BUTTON: false, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
-    'https://docs.tangly1024.com/article/vercel-deploy-notion-next',
-  STARTER_CTA_BUTTON_TEXT: '开始体验',
+    'https://vln844fdcr.feishu.cn/share/base/form/shrcnsTQWqJD0UM4VTyCJOBcvsf',
+  STARTER_CTA_BUTTON_TEXT: '联系我们',
 
   STARTER_POST_REDIRECT_ENABLE: false, // 默認開啟重定向
   STARTER_POST_REDIRECT_URL: 'https://blog.tangly1024.com', // 重定向域名
