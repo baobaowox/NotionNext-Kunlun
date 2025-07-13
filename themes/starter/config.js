@@ -10,8 +10,8 @@ const CONFIG = {
 
   // 英雄区块导航
   STARTER_HERO_ENABLE: true, // 开启英雄区
-  STARTER_HERO_TITLE_1: '加速企业组织级AI能力体系构建,重塑企业竞争力', // 英雄区文字
-  STARTER_HERO_TITLE_2: '从AI认知到实战落地，一站式解决企业人才转型痛点', // 英雄区文字
+  STARTER_HERO_TITLE_1: '构建企业级AI人才体系，驱动数智化战略落地', // 英雄区文字
+  STARTER_HERO_TITLE_2: '从战略认知到业务实战，助力组织实现AI人才转型与能力跃迁', // 英雄区文字
   // 英雄区两个按钮，如果TEXT留空则隐藏按钮
   STARTER_HERO_BUTTON_1_TEXT: '', // 英雄区按钮
   STARTER_HERO_BUTTON_1_URL:
