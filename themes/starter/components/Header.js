@@ -31,19 +31,6 @@ export const Header = props => {
     }
     // ======= Sticky
     window.addEventListener('scroll', navBarScollListener)
-    
-    // 强制导航栏项目靠右
-    const adjustMenuPosition = () => {
-      const menuContainer = document.querySelector('.menu-list, nav ul, [class*="menu"]')
-      if (menuContainer) {
-        menuContainer.style.marginLeft = 'auto'
-        menuContainer.style.justifyContent = 'flex-end'
-        menuContainer.style.display = 'flex'
-      }
-    }
-    
-    setTimeout(adjustMenuPosition, 100)
-    
     return () => {
       window.removeEventListener('scroll', navBarScollListener)
     }
@@ -75,12 +62,12 @@ export const Header = props => {
             <Logo {...props} />
 
             <div className='flex w-full items-center justify-between px-4'>
-              {/* 中间菜单 - 现在会自动靠右 */}
+              {/* 中间菜单 */}
               <MenuList {...props} />
 
               {/* 右侧功能按钮 */}
               <div className='flex items-center gap-4'>
-                {/* 注册登录功能 - 移到深色模式按钮前面 */}
+                {/* 注册登录功能 */}
                 {enableClerk && (
                   <>
                     <SignedOut>
@@ -118,7 +105,7 @@ export const Header = props => {
                   </div>
                 )}
                 
-                {/* 深色模式切换 - 移到最右边 */}
+                {/* 深色模式切换 - 在汉堡菜单之前 */}
                 <DarkModeButton />
               </div>
             </div>
