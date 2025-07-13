@@ -33,7 +33,7 @@ const CONFIG = {
 
   // 特性区块
   STARTER_FEATURE_ENABLE: true, // 特性区块开关
-  STARTER_FEATURE_TITLE: 'AI业务', // 特性
+  STARTER_FEATURE_TITLE: 'AI业务落地', // 特性
   STARTER_FEATURE_TEXT_1: 'AI产品经理训练营', // 特性
   STARTER_FEATURE_TEXT_2:
     '聚焦“懂业务、会工具、能落地”的全链路AI产品人才培养路径，打造企业AI战略落地的关键角色。', // 特性
@@ -65,7 +65,7 @@ const CONFIG = {
   STARTER_ABOUT_TEXT:
     '昆仑人才研究院专注于组织级AI人才能力建设，致力于帮助企业实现从AI认知普及到实战落地的系统转型。我们融合十余年大厂经验、先进的人才模型与实战项目，输出可交付、可复制、可落地的能力培养方案。',
   STARTER_ABOUT_BUTTON_TEXT: '了解我们',
-  STARTER_ABOUT_BUTTON_URL: 'https://www.notion.so/AI-22f58cc55b5080c98bafe2e84460f054?source=copy_link',
+  STARTER_ABOUT_BUTTON_URL: 'https://generated-neem-f94.notion.site/AI-22f58cc55b5080c98bafe2e84460f054?source=copy_link',
   STARTER_ABOUT_IMAGE_1: '/images/starter/about/about-image-01.jpg',
   STARTER_ABOUT_IMAGE_2: '/images/starter/about/about-image-02.jpg',
   STARTER_ABOUT_TIPS_1: '100+',
@@ -111,7 +111,7 @@ const CONFIG = {
     'https://tangly1024.lemonsqueezy.com/checkout/buy/df924d66-09dc-42a4-a632-a6b0c5cc4f28',
 
   // 首页用户测评区块
-  STARTER_TESTIMONIALS_ENABLE: true, // 测评区块开关
+  STARTER_TESTIMONIALS_ENABLE: false, // 测评区块开关
   STARTER_TESTIMONIALS_TITLE: '用户反馈',
   STARTER_TESTIMONIALS_TEXT_1: '我们的用户怎么说',
   STARTER_TESTIMONIALS_TEXT_2:
@@ -177,25 +177,25 @@ const CONFIG = {
 
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
-  STARTER_FAQ_TITLE: '常见问题解答',
-  STARTER_FAQ_TEXT_1: '有任何问题吗？请看这里',
-  STARTER_FAQ_TEXT_2: '我们收集了常见的用户疑问',
+  STARTER_FAQ_TITLE: 'AI组织内生',
+  STARTER_FAQ_TEXT_1: '打造组织级AI体系的关键抓手：企业AI内训师体系',
+  STARTER_FAQ_TEXT_2: '我们构建的不只是“讲师团队”，而是一支能推动组织变革的AI传播中坚力量',
 
-  STARTER_FAQ_1_QUESTION: 'NotionNext有帮助文档吗？',
+  STARTER_FAQ_1_QUESTION: '内部培养，构建AI布道者团队',
   STARTER_FAQ_1_ANSWER:
-    'NotionNext提供了<a href="https://docs.tangly1024.com/about" className="underline">帮助文档</a>，操作<a href="https://www.bilibili.com/video/BV1fM4y1L7Qi/" className="underline">演示视频</a>，以及<a href="https://docs.tangly1024.com/article/chat-community" className="underline">交流社群</a>来协助您完成网站的搭建部署',
+    '从各业务部门选拔人才，打造“能讲、能带、能落地”的AI内训骨干，实现组织能力内生化。',
 
-  STARTER_FAQ_2_QUESTION: '部署后要如何编写文章？',
+  STARTER_FAQ_2_QUESTION: '贴合场景，开发自有AI课程体系',
   STARTER_FAQ_2_ANSWER:
-    '您可以在Notion中之间添加或修改类型为Post的页面，内容将被实时同步在站点中，详情参考<a className="underline" href="https://docs.tangly1024.com/article/start-to-write">《帮助文档》</a>',
+    '围绕部门真实业务流程，设计“可讲、可练、可推广”的课程包与案例库，推动知识转化为生产力。',
 
-  STARTER_FAQ_3_QUESTION: '站点部署失败，更新失败？',
+  STARTER_FAQ_3_QUESTION: '训战结合，沉淀组织级AI资产',
   STARTER_FAQ_3_ANSWER:
-    '通常是配置修改错误导致，请检查配置或者重试操作步骤，或者通过Vercel后台的Deployments中找到错误日志，并向网友求助',
+    '通过集中训练+项目共创，输出标准教案、课包与Agent流程，形成可复制、可迭代的人才培养机制。',
 
-  STARTER_FAQ_4_QUESTION: '文章没有实时同步？',
+  STARTER_FAQ_4_QUESTION: '可衡量的ROI，长期组织回报清晰？',
   STARTER_FAQ_4_ANSWER:
-    '先检查Notion_Page_ID是否正确配置，其次由于博客的每个页面都有独立缓存，刷新网页后即可解决',
+    '第一期即可培养10+可讲师、部署20+应用场景，替代外部讲师，节省百万级预算，构建企业AI能力网络。',
 
   // 团队成员区块
   STARTER_TEAM_ENABLE: false, // 团队成员区块开关
@@ -231,11 +231,11 @@ const CONFIG = {
 
   // 博客文章区块
   STARTER_BLOG_ENABLE: true, // 首页博文区块开关
-  STARTER_BLOG_TITLE: '我们的博客',
+  STARTER_BLOG_TITLE: '核心方案介绍',
   STARTER_BLOG_COUNT: 2, // 首页博文区块默认展示前3篇文章
-  STARTER_BLOG_TEXT_1: '最近的新闻',
+  STARTER_BLOG_TEXT_1: 'AI人才战略项目',
   STARTER_BLOG_TEXT_2:
-    '这里会发布一些关于NotionNext的最新动态，包括新的动向、新的未来计划，以及新功能的特性',
+    '聚焦AI人才转型两大关键路径——以“产品力建设”与“组织复制机制”为核心，打造面向未来的企业AI能力体系。',
 
   // 联系模块
   STARTER_CONTACT_ENABLE: false, // 联系模块开关
