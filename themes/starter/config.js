@@ -178,7 +178,7 @@ const CONFIG = {
   //   FAQ 常见问题模块
   STARTER_FAQ_ENABLE: true, // 常见问题模块开关
   STARTER_FAQ_TITLE: 'AI组织内生',
-  STARTER_FAQ_TEXT_1: '打造组织级AI体系的关键抓手：企业AI内训师体系',
+  STARTER_FAQ_TEXT_1: '企业AI内训师体系',
   STARTER_FAQ_TEXT_2: '我们构建的不只是“讲师团队”，而是一支能推动组织变革的AI传播中坚力量',
 
   STARTER_FAQ_1_QUESTION: '内部培养，构建AI布道者团队',
@@ -301,11 +301,11 @@ const CONFIG = {
 
   // 页面底部的行动呼吁模块
   STARTER_CTA_ENABLE: true,
-  STARTER_CTA_TITLE: '你还在等待什么呢？',
-  STARTER_CTA_TITLE_2: '现在开始吧',
+  STARTER_CTA_TITLE: '有合作需求或想了解更多？欢迎联系我们',
+  STARTER_CTA_TITLE_2: '',
   STARTER_CTA_DESCRIPTION:
-    '访问NotionNext的操作文档，我们提供了详细的教程，帮助你即刻搭建站点',
-  STARTER_CTA_BUTTON: false, // 是否显示按钮
+    '我们将为您提供定制化的AI人才建设方案与一对一答疑支持。',
+  STARTER_CTA_BUTTON: true, // 是否显示按钮
   STARTER_CTA_BUTTON_URL:
     'https://vln844fdcr.feishu.cn/share/base/form/shrcnsTQWqJD0UM4VTyCJOBcvsf',
   STARTER_CTA_BUTTON_TEXT: '联系我们',
