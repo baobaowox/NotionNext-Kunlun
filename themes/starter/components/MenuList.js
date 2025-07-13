@@ -52,16 +52,18 @@ export const MenuList = props => {
   useEffect(() => {
     setShowMenu(false)
   }, [router])
+  
   if (!links || links.length === 0) {
     return null
   }
+  
   return (
-    <div className="ml-auto">
-      {/* 完全移除移动端菜单切换按钮 */}
+    <div className="flex-1 flex justify-end">
+      {/* 完全不渲染移动端菜单切换按钮 */}
       <nav
         id='navbarCollapse'
-        className={`lg:static lg:block lg:w-full lg:max-w-full lg:bg-transparent lg:px-4 lg:py-0 lg:shadow-none dark:lg:bg-transparent xl:px-6`}>
-        <ul className='block lg:flex lg:justify-end lg:ml-auto 2xl:ml-20'>
+        className="block w-auto bg-transparent">
+        <ul className='flex items-center justify-end gap-6'>
           {links?.filter(link => link.show !== false).map((link, index) => (
             <MenuItem key={index} link={link} />
           ))}
