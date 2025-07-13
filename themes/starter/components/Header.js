@@ -74,13 +74,13 @@ export const Header = props => {
             {/* Logo */}
             <Logo {...props} />
 
-            <div className='flex w-full items-center justify-between px-4'>
-              {/* 中间菜单 - 现在会自动靠右 */}
+            <div className='flex w-full items-center px-4'>
+              {/* 中间菜单 - 会自动靠右 */}
               <MenuList {...props} />
 
               {/* 右侧功能按钮 */}
-              <div className='flex items-center gap-4'>
-                {/* 注册登录功能 - 移到深色模式按钮前面 */}
+              <div className='flex items-center gap-4 ml-4'>
+                {/* 注册登录功能 */}
                 {enableClerk && (
                   <>
                     <SignedOut>
