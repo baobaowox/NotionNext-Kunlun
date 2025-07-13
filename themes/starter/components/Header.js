@@ -66,10 +66,8 @@ export const Header = props => {
               <MenuList {...props} />
 
               {/* 右侧功能 */}
-              <div className='flex items-center gap-4 justify-end pr-20 md:pr-24 lg:pr-8'>
-                {/* 深色模式切换 */}
-                <DarkModeButton />
-                {/* 注册登录功能 */}
+              <div className='flex items-center gap-4 justify-end'>
+                {/* 注册登录功能 - 移到深色模式按钮前面 */}
                 {enableClerk && (
                   <>
                     <SignedOut>
@@ -106,6 +104,9 @@ export const Header = props => {
                     </Link>
                   </div>
                 )}
+                
+                {/* 深色模式切换 - 移到最右边 */}
+                <DarkModeButton />
               </div>
             </div>
           </div>
